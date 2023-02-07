@@ -15,10 +15,10 @@ class local {
   }
 
   getItem(key) {
-    if (typeof key !== "string") {
-      console.log("Key must be a string.");
+    if (this.store.has(key) {
+      this.store.get(key);
     } else {
-      return this.store.get(key);
+       console.log("Key must be a string.");
     }
   }
   removeItem(key) {
